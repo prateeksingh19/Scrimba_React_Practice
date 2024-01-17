@@ -5,19 +5,23 @@ import './App.css'
 import data from './data'
 
 function App() {
-  const cards = data.map( item =>{
-    return (<Card 
+  const cards = data.map(item => {
+    return (<Card
       key={item.id}
       {...item}
     />)
   })
   return (
     <>
-      <NavBar/>
-      {/* <Hero /> */}
-      <section className="cards_list">
-        {cards}
-      </section>
+  
+        <div className='innerDiv'>
+          <NavBar />
+          {/* <Hero /> */}
+          <section className="cards_list">
+            {cards}
+          </section>
+        </div>
+    
     </>
   )
 }
