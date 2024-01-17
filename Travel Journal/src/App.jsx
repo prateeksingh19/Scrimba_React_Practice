@@ -2,7 +2,7 @@ import NavBar from './Components/NavBar'
 import Hero from './Components/Hero'
 import Card from './Components/Card'
 import './App.css'
-import data from './Data'
+import data from './data'
 
 function App() {
   const cards = data.map( item =>{
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      <Hero />
+      {/* <Hero /> */}
       <section className="cards_list">
         {cards}
       </section>

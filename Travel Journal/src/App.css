@@ -1,0 +1,120 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    height: 50px;
+    width: 40%;
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_logo{
+    display: flex;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    padding-right: 8px;
+}
+
+.nav_title{
+    display: flex;
+    width: 109px;
+    height: 16px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+
+.card{
+    padding-top: 50px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.card_img{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card_content{
+    padding-left: 20px;
+}
+
+.card_stats{
+    margin: auto;
+    padding: 0px;
+}
+
+.card_marker{
+    margin: auto;
+    padding: 0px;
+}
+
+.card_location{
+    width: 40px;
+    height: 10px;
+    padding-left: 4px;
+    padding-bottom: 0px;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.741px;
+}
+
+.gray{
+    padding-left: 8px;
+    width: 106px;
+    height: 13px;
+    flex-shrink: 0;
+    color: #918E9B;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.card_title{
+    width: 326px;
+    height: 40px;
+    color: #2B283A;
+    font-size: 25px;
+    font-weight: 700;
+    margin: auto;
+    padding-top: 7px;
+    margin-left: 0px;
+}
+
+.card_date{
+    width: 319px;
+    height: 11px;
+    color: #2B283A;
+    font-size: 13px;
+    font-weight: 700;
+    margin: auto;
+    padding-top: 7px;
+    margin-left: 0px;
+}
+
+.card_description{
+    width: 330px;
+    font-family: Inter;
+    color: #2B283A;
+    font-size: 13px;
+    line-height: 150%;
+    margin: auto;
+    padding-top: 9px;
+    margin-left: 0px;
+}
