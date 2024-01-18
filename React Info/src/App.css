@@ -2,31 +2,31 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   width: 550px;
   height: 459px;
   font-family: Inter;
-  background-color: #282D35;
+  background-color: #282d35;
 }
 
-nav{
-  background: #21222A;
+nav {
+  background: #21222a;
   display: flex;
   align-items: center;
   padding: 10px 10px;
 }
 
-.nav_logo{
+.nav_logo {
   width: 28.93px;
   height: 28.93px;
   margin-right: 7px;
 }
 
-.nav_title{
+.nav_title {
   width: 122.394px;
   height: 28px;
-  color: #61DAFB;
+  color: #61dafb;
   font-family: Inter;
   font-size: 22.253px;
   font-style: normal;
@@ -34,13 +34,12 @@ nav{
   line-height: normal;
   letter-spacing: -1.113px;
   margin-right: auto;
-  
 }
 
-.nav_subheading{
+.nav_subheading {
   width: 200px;
   height: 21px;
-  color: #DEEBF8;
+  color: #deebf8;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
@@ -48,8 +47,8 @@ nav{
   line-height: normal;
 }
 
-.body_title{
-  color: #FFF;
+.body_title {
+  color: #fff;
   padding: 10px 40px 5px;
   font-family: Inter;
   font-size: 39.06px;
@@ -59,16 +58,16 @@ nav{
   letter-spacing: -1.953px;
 }
 
-.main_facts{
+.main_facts {
   padding-left: 90px;
 }
 
-li::marker{
+li::marker {
   font-size: 1.5rem;
-  color: #61DAFB;
+  color: #61dafb;
 }
 
-li{
+li {
   width: 415px;
   padding: 10px 5px 5px;
   font-family: Inter;
@@ -78,8 +77,8 @@ li{
   line-height: normal;
 }
 
-main{
- background-image: url(src/assets/reactjs-icon.png);
- background-repeat: no-repeat;
- background-position: right center;
+main {
+  background-image: url(src/assets/reactjs-icon.png);
+  background-repeat: no-repeat;
+  background-position: right center;
 }

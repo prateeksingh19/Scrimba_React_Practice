@@ -1,4 +1,4 @@
-# Scrimba React Tutorial Project 1 
+# Scrimba React Tutorial Project 1
 
 ### Built a React Info Site
 
