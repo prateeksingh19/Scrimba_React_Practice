@@ -2,6 +2,6 @@
 
 ### Built a Meme Generator
 
-#### [Figma of the Site](https://www.figma.com/file/MoLwFPHNHJVrzdFurxHzNV/Meme-Generator?node-id=0%3A1&mode=dev)
+#### [Figma of the Site](https://www.figma.com/file/MoLwFPHNHJVrzdFurxHzNV/Meme-Generator)
 
 ### [Scrimba React](https://scrimba.com/learn/learnreact)
