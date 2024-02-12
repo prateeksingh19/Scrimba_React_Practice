@@ -52,7 +52,8 @@ main {
 }
 
 .die_number {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .die_container {
@@ -69,6 +70,7 @@ main {
   border: none;
   font-size: 1.5rem;
   margin: 50px;
+  margin-bottom: 25px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -78,4 +80,9 @@ main {
 
 .rollDice:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.stats {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
